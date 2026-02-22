@@ -73,5 +73,8 @@ To avoid unnecessary AWS costs, the following resources are deleted after testin
 
 ## 🛠️ Advanced Automation: AWS CLI
 While I initially used the AWS Console for this project, I also explored Infrastructure as Code (IaC) by scripting the deployment process.
-- CLI Provisioning: I created <code>scripts/provision.sh</code> to automate the creation of the Launch Template and the Auto Scaling Group via the terminal.
+- CLI Provisioning: I created <code>scripts/provision.sh</code> to automate the creation of the Launch Template and Auto Scaling Group via the terminal.
 - Efficiency: This approach demonstrates how to manage cloud resources programmatically, making deployments faster and more repeatable.
+
+## 🙏 Acknowledgements
+[NTU SCTP - Coaching 3: Hosting a Flask application in a HA setup](https://docs.google.com/document/d/1o4d2nMGxwhYCKXyvmNUkWWmHU0lECG4qE-ai0o-eDeI)
